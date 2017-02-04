@@ -1,0 +1,88 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url(../img/background_compress.jpg) center center fixed no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.quote-box {
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin-top: 8rem;
+  min-height: 25rem;
+  width: 50%;
+  padding-bottom: 2rem;
+  font-size: 1.5em;
+}
+
+.quote-box p {
+  color: white;
+  padding: 3em;
+}
+
+#twitter-button {
+  display: inline-block;
+}
+
+
+.buttons-container {
+  margin: auto;
+  margin-top: 1rem;
+  width: 50%;
+
+};
+
+.button {
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #212121;
+  float: right;
+  display: inline-block;
+}
+
+.button:hover {
+  transition: background 0.3s ease;
+  background-color: #616161;
+}
+
+.twitter-button {
+  background-color: #1e88e5;
+  float:left;
+  text-decoration: none;
+
+}
+
+@media screen and (max-width: 800px) {
+  .quote-box {
+    width: 80%;
+  }
+
+  .buttons-container {
+    width: 80%;
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .quote-box {
+    width: 95%;
+  }
+
+  .buttons-container {
+    width: 95%;
+  }
+
+}
